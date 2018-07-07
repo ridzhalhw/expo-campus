@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.re.threelevelexpandlist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Campus Expo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Intro"
+            android:label="Campus Expo"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".UB_main" />
+        <activity android:name=".UGM_Main" />
+        <activity android:name=".Unair_Main" />
+        <activity android:name=".PKM_Main" />
+        <activity android:name=".Unesa_Main" />
+        <activity android:name=".UNY_Main" />
+        <activity android:name=".Unpad_Main" />
+        <activity android:name=".UNS_Main" />
+        <activity android:name=".IPB_Main" />
+        <activity android:name=".UAD_Main" />
+        <activity android:name=".UAN_Main" />
+        <activity android:name=".UGUN_Main" />
+        <activity android:name=".ITB_Main" />
+        <activity android:name=".UD_Main" />
+        <activity android:name=".UH_Main" />
+        <activity android:name=".UII_Main" />
+        <activity android:name=".Telkom_Main" />
+        <activity android:name=".UNJ_Main" />
+        <activity android:name=".UNEJ_Main" />
+        <activity android:name=".UIN_Main" />
+        <activity android:name=".Binus_Main" />
+        <activity android:name=".HT_Main" />
+        <activity android:name=".Poltek_Main" />
+        <activity android:name=".UM_Main" />
+        <activity android:name=".UI_Main"></activity>
+    </application>
+
+</manifest>
